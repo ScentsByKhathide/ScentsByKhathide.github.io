@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Black\ Pink\ Bold\ Elegant\ Monogram\ Personal\ Brand\ Logo\ \(6\).png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Place items at the start and end of the header */
+    align-items: center; /* Vertically align items in the center of the header */
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style the logo */
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: black;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+/* Updated styles for the buttons with semi-circular edges */
+.cta-button {
+    background-color: white;
+    color: #777; /* Grey color */
+    border: 2px solid white;
+    border-radius: 50px; /* Half the button's height (adjust as needed) */
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: #777; /* Grey color */
+}
+
+.featured-fragrance {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: black;
+}
+
+.featured-fragrance h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.featured-fragrance img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.featured-fragrance p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.fragrance-categories {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: black;
+}
+
+.fragrance-categories h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.fragrance-categories p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.category {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+}
+
+.category img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.category h3 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.background-image {
+    height: 100vh;
+}
+
+/* Style the footer links */
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a img {
+  width: 20px; /* Adjust the width of the icons */
+  height: auto;
+  vertical-align: middle;
+  margin-left: 5px; /* Adjust the spacing between text and icon */
+}
+
+/* Style the contact section */
+.contact {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact a img {
+  width: 20px; /* Adjust the width of the icons */
+  height: auto;
+  vertical-align: middle;
+  margin-right: 5px; /* Adjust the spacing between icon and phone number */
+}
+
+/* Style the social media links */
+.social-media-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-media-links a img {
+  width: 30px; /* Adjust the width of the icons */
+  height: auto;
+}

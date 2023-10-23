@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('Black\ Pink\ Bold\ Elegant\ Monogram\ Personal\ Brand\ Logo\ \(6\).png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  height: 100vh;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Place items at the start and end of the header */
+  align-items: center; /* Vertically align items in the center of the header */
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Style the logo */
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.fragrance-collection {
+  text-align: center; /* Center the content */
+  padding: 20px;
+  color: white;
+  background: black;
+}
+
+.fragrance-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+}
+
+.fragrance {
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.fragrance:hover {
+  transform: scale(1.05);
+}
+
+.fragrance img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.fragrance h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.fragrance p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  background-color: white;
+  color: #a6a6a6; /* Grey color */
+  border: 2px solid white;
+  border-radius: 50px; /* Half the button's height (adjust as needed) */
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: white;
+  color: #333; /* Grey color */
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+footer .footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer .social-media-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Style the footer links */
+.footer-links a {
+color: #fff;
+text-decoration: none;
+margin: 0 10px;
+}
+
+.footer-links a img {
+width: 20px; /* Adjust the width of the icons */
+height: auto;
+vertical-align: middle;
+margin-left: 5px; /* Adjust the spacing between text and icon */
+}
+
+/* Style the contact section */
+.contact {
+color: #fff;
+margin-bottom: 10px;
+}
+
+.contact a {
+color: #fff;
+text-decoration: none;
+}
+
+.contact a img {
+width: 20px; /* Adjust the width of the icons */
+height: auto;
+vertical-align: middle;
+margin-right: 5px; /* Adjust the spacing between icon and phone number */
+}
+
+/* Style the social media links */
+.social-media-links a {
+color: #fff;
+text-decoration: none;
+margin: 0 10px;
+}
+
+.social-media-links a img {
+width: 30px; /* Adjust the width of the icons */
+height: auto;
+}
